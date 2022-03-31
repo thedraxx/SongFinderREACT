@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/SongFinderREACT/static/css/main.eecf7c7a.css",
-    "main.js": "/SongFinderREACT/static/js/main.db448946.js",
+    "main.css": "/SongFinderREACT/static/css/main.aef732dc.css",
+    "main.js": "/SongFinderREACT/static/js/main.16ea1799.js",
     "static/js/787.c0884fed.chunk.js": "/SongFinderREACT/static/js/787.c0884fed.chunk.js",
     "index.html": "/SongFinderREACT/index.html",
-    "main.eecf7c7a.css.map": "/SongFinderREACT/static/css/main.eecf7c7a.css.map",
-    "main.db448946.js.map": "/SongFinderREACT/static/js/main.db448946.js.map",
+    "main.aef732dc.css.map": "/SongFinderREACT/static/css/main.aef732dc.css.map",
+    "main.16ea1799.js.map": "/SongFinderREACT/static/js/main.16ea1799.js.map",
     "787.c0884fed.chunk.js.map": "/SongFinderREACT/static/js/787.c0884fed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eecf7c7a.css",
-    "static/js/main.db448946.js"
+    "static/css/main.aef732dc.css",
+    "static/js/main.16ea1799.js"
   ]
 }
