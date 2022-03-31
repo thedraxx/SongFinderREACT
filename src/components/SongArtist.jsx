@@ -1,8 +1,9 @@
 import React from "react";
+import {SectionArtist } from "./Styled";
 
 export const SongArtist = ({ artist }) => {
   return (
-    <section>
+    <SectionArtist>
       <h2>{artist.strArtist}</h2>
       <img src={artist.strArtistThumb} alt={artist.strArtist} />
       <p>
@@ -10,8 +11,9 @@ export const SongArtist = ({ artist }) => {
       </p>
       <p>{artist.strCountry}</p>
       <p>{artist.strGenre} - {artist.strStyle}</p>
-      <a href={`http://${artist.strWebsite}`} target="_blank" rel="noreferrer">Web</a>
       <p>{artist.strBiographyEN}</p>
-    </section>
+      <a href={`http://${artist.strWebsite}`} target="_blank" rel="noreferrer">Web</a>
+
+    </SectionArtist>
   );
 };

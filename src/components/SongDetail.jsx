@@ -23,7 +23,7 @@ export const SongDetail = ({ search, lyric, bio }) => {
         <SongArtist artist={bio.artists[0]} />
       ) : (
         <Message
-          msg={`Error: Interprete no encontrado ${search.artist}`}
+          msg={`Error: Interprete "${search.artist}" no encontrado`}
           bgColor="#dc3545"
         />
       )}

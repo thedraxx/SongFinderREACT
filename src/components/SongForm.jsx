@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Button, DIV } from "./Styled";
 
 let initialForm = {
   artist: "",
@@ -27,12 +28,12 @@ export const SongForm = ({ HandleSearch }) => {
   };
 
   return (
-    <div>
+    <DIV>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
           name="artist"
-          placeholder="Nombre del interprete"
+          placeholder="Name of the artist"
           onChange={handleChange}
           value={form.artist}
         />
@@ -40,13 +41,13 @@ export const SongForm = ({ HandleSearch }) => {
         <input
           type="text"
           name="song"
-          placeholder="Nombre de la cancion"
+          placeholder="Name of the song"
           onChange={handleChange}
           value={form.song}
         />
 
-        <input type="submit" value="Enviar" />
+        <Button type="submit" value="Enviar">Send</Button>
       </form>
-    </div>
+    </DIV>
   );
 };

@@ -1,12 +1,17 @@
 
 import './App.css';
 import { SongSearch } from './components/SongSearch';
+import { Text } from './components/Styled';
 
 function App() {
+
+
+
   return (
   <>
-    <h1>Buscador de canciones</h1>
+    <Text>SONG FINDER</Text>
     <SongSearch />
+
     <hr />
   </>
   );

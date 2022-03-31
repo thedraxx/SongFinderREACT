@@ -50,7 +50,6 @@ export const SongSearch = () => {
 
   return (
     <>
-      <h1>SongSearch</h1>
       <article className="grid-1-3">
         <SongForm HandleSearch={HandleSearch} />
         {loading && <Loader />}
